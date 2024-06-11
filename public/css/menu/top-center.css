@@ -1,0 +1,18 @@
+/* ==============================
+   Menu Style
+   ============================== */
+
+.logo-wrap{
+	display: none;
+}
+.main-nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	text-align: center;
+	line-height: 0;
+}
+.inner-nav{
+	float: none;
+	overflow: hidden;
+}

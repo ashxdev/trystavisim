@@ -1,0 +1,301 @@
+/* ==============================
+   Small Desktop
+   ============================== */
+@media only screen and (max-width: 1200px) {
+	
+    .inner-nav ul > li > a {
+        padding-left: 12px;
+		padding-right: 12px;        
+    }
+	.contact-text{
+		padding: 0 30px;
+	}
+	
+	.home-image-slider .home-description {
+        font-size: 1.27em !important;
+    }
+	
+}
+
+
+
+/* ==============================
+   Tablet Landskape
+   ============================== */
+
+@media only screen and (max-width: 1024px) {
+	
+    .benefit-item {
+        width: 300px;
+        padding: 0 32px;
+    }
+	
+    .home-image-slider .headings {
+        font-size: 3.45em !important;
+    }
+    .home-image-slider .home-description {
+        font-size: 1.2em !important;
+    }
+
+}
+  
+@media only screen and (max-width: 1023px) {
+  	
+    .banner-text {
+        text-align: center;
+    } 
+	.banner-button {
+		margin-top: 40px;
+        text-align: center;
+    }
+	
+    .work-item {
+        width: 50%;
+    }
+	
+	.home-image-slider .headings {
+        font-size: 2.85em !important;
+    }
+	
+}
+  
+/* ==============================
+   Tablet Portrait
+   ============================== */
+  
+@media only screen and (max-width: 768px) {
+  	.page-section {
+        padding: 80px 0;
+    }
+    .margin-bot{
+        margin-bottom: 40px;
+    }
+	.section-heading,
+	.banner-heading{
+		margin-bottom: 40px;
+	}
+	.section-text{
+		margin-bottom: 40px;
+	}
+    .service-grid {
+        margin-bottom: 40px;
+    }
+	.works-filter{
+		margin-bottom: 40px;
+	}
+	.works-filter li{
+       border-top: none;
+    }
+    .works-filter li.active{
+       border-top: none;
+	   color: #e54028;
+    }
+    .works-filter li:first-child,
+	.works-filter li:last-child {
+        margin: 0 10px;
+    } 
+	
+	.benefit-item{
+		width: 264px;
+		padding: 0 15px;
+	}
+	
+	.phone{
+		margin-bottom: 40px;
+	}
+	
+    #map-canvas {
+        height: 300px;
+    }
+	
+    .blog-container {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .blog-item {
+        margin-bottom: 50px;
+    }
+	.blog-item-date{
+		top: 0;
+		left: -100px;
+	}
+	.blog-item-title{
+		font-size: 34px;
+	}
+	.blog-item-body{
+		font-size: 15px;
+	}
+	
+	.home-image-slider .headings {
+        font-size: 2.35em !important;
+    }
+
+}
+@media only screen and (max-width: 767px) {
+	
+	.benefit-item{
+		width: 230px;
+		padding: 0;
+	}
+	
+	.contact-block{
+		margin-top: 30px;
+	}
+	.contact-block:first-child{
+		margin-top: 0;
+	}
+	.blog-item-date{
+		width: auto;
+		position: relative;
+		top: auto;
+		left: auto;
+		padding: 0;
+		text-align: left;
+	}
+	.date-num{
+		display: inline !important;
+		margin: 0 5px 10px 0;
+	}
+    .sidebar {
+        margin-top: 50px;
+    }
+}
+
+
+
+/* ==============================
+   Phone
+   ============================== */
+  
+@media only screen and (max-width: 480px) {
+	
+	.image-bg,
+	.image-color-bg{
+		background-attachment: scroll;
+	}
+    .work-container {
+        padding: 30px 0;
+    }
+	.margin-bot{
+        margin-bottom: 30px;
+    }
+	.section-heading,
+	.banner-heading{
+		margin-bottom: 30px;
+		font-size: 20px;
+	}
+	.service-grid {
+        margin-bottom: 30px;
+    }
+	.works-filter{
+		margin-bottom: 30px;
+	}
+	.section-text, 
+	.text{
+		line-height: 1.7;
+	}
+		
+	
+	.count-number{
+		font-size: 40px;
+	}
+    .count-icon:before, .count-icon:after {
+        width: 32px;
+    } 
+	.count-icon:before {
+        left: -42px;
+    } 
+	.count-icon:after {
+        right: -42px;
+    }
+	
+	.team-opened .team-description{
+		line-height: 1.7;
+	}
+	
+	.work-item {
+        width: 100%;
+    }
+	
+	.benefit-item{
+		padding: 0;
+	}
+	
+    .client-item img {
+        width: 100%;
+    }
+	
+	.tc-icon{
+		margin-bottom: 15px;
+	}
+	.tc-author{
+		margin-top: 15px;
+	}
+    .tc-arrows {
+        margin-top: 20px;
+    }
+	
+	.phone{
+		margin-bottom: 30px;
+		padding: 50px 20px;
+	}
+	
+	.contact-text{
+		padding: 0;
+	}
+	
+	#map-canvas {
+        height: 200px;
+    }
+	
+    .contact-form-wrap {
+        padding: 0 10px;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+	.work-full-text{
+		margin-top: 30px;
+	}
+	
+	.blog-container {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+	
+	.blog-item-title{
+		font-size: 26px;
+	}
+	.blog-item-body{
+		font-size: 15px;
+	}
+	.blog-item-q p{
+		font-size: 17px;
+	}
+	.comment-avatar{
+		width: 30px;
+		margin-top: 7px;
+	}
+	
+	.home-image-slider .headings {
+        font-size: 1.85em !important;
+    }
+	.home-image-slider .home-description {
+        font-size: 1.1em !important;
+    }
+	.separ-space{
+		display: block;
+		height: 10px;
+	}
+}
+
+
+/* ==============================
+   Small Phone
+   ============================== */
+  
+@media only screen and (max-width: 319px) {
+	
+  	.nav-social-links{
+  		display: none;
+  	}
+}

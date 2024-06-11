@@ -1,0 +1,70 @@
+/* ==============================
+   Fonts
+   ============================== */
+
+/* 
+ * First font load 
+ * from Google Fonts
+ * */
+
+@import url(http://fonts.googleapis.com/css?family=Istok+Web:400,700,400italic,700italic&subset=latin,cyrillic);
+
+/* 
+ * Second font load 
+ * from Google Fonts
+ * */
+
+@import url(http://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic,700italic&subset=latin,cyrillic);
+
+body,
+h1,h2,h3,h4,h5,h6,
+.tc-author,
+.blog-item-data,
+.comment-item-data{
+	font-family: "Istok Web", arial, sans-serif;
+}
+.main-nav{
+	letter-spacing: 1px;
+}
+.inner-nav ul > li > a{
+	color: #444;
+}
+.section-heading,
+.small-section-heading{
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.work-title{
+	font-weight: 700;
+}
+
+.serif
+.text,
+blockquote,
+.home-description,
+.section-title,
+.section-text,
+.count-title,
+.team-status,
+.team-description,
+.team-contacts,
+.service-more,
+.sf-description,
+.work-descr,
+.benefits-descr,
+.tc-content,
+.client-review,
+.contact-text,
+.text-block,
+.spasia-tabs-cont,
+.accordion > dd,
+.toggle > dd,
+.date-num,
+.blog-item-body,
+.blog-item-more,
+.widget-text,
+.widget-menu li,
+.widget-menu li small,
+.widget-posts li{
+	font-family: "Noto Serif", "Times New Roman", Times, serif;
+}

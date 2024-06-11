@@ -1,0 +1,202 @@
+/* ==============================
+   Primary color
+   ============================== */
+
+/* Solid color */
+
+a,
+a:hover,
+.color,
+.btn-spacia.btn-border-c,
+.btn-spacia.btn-border-w:hover,
+.btn-spacia.btn-border-w:focus,
+.btn-spacia.btn-w:hover,
+.btn-spacia.btn-w:focus,
+.btn-spacia.btn-w-color,
+.service-close-link,
+.benefit-icon,
+.phone-icon,
+.accordion > dt > a.active,
+.accordion > dt > a.active:after,
+.accordion > dt > a.active:hover:after,
+.toggle > dt > a.active,
+.toggle > dt > a.active:after,
+.toggle > dt > a.active:hover:after,
+.blog-item-title a:hover,
+a.blog-item-more:hover,
+.blog-item-q:hover a,
+.blog-item-q p a:hover,
+.blog-item-q p:hover:before,
+.blog-item-q p:hover:after,
+.pagination a:hover,
+.widget-menu li a:hover,
+.tags a:hover,
+.widget-posts li a:hover{
+	color: #eabb00;
+}
+
+blockquote,
+.btn-spacia.btn-border-c
+{
+	border-color: #eabb00;
+}
+
+.btn-spacia.btn-border-c:hover,
+.btn-spacia.btn-border-c:focus,
+.image-color-bg,
+.bg-overlay-1,
+.benefit-item:hover:after,
+.progress-color .progress-bar
+{
+	background-color: #eabb00;
+}
+
+
+/* RGBA colors */
+
+.service-close-link:hover{
+	color: rgba(234,187,0, .8);
+}
+
+.btn-spacia.btn-color{
+	background-color: rgba(234,187,0, 1);
+}
+
+.btn-spacia.btn-color:hover,
+.btn-spacia.btn-color:focus,
+.bg-overlay-1{
+  	background: rgba(234,187,0, .9);
+}
+
+.work-item:hover .work-img:after{	
+	background-color: rgba(234,187,0, .95);
+}
+
+.image-color-bg .banner-decription{
+	color: #efe8cb;
+}
+
+.pagination a:hover,
+.tags a:hover{
+	border-color: rgba(234,187,0, .5);
+}
+
+.widget-menu li a:hover{
+	border-color: rgba(234,187,0, .4);
+}
+
+/* Gradients */
+
+.gradient-overlay{	
+	background-image: -webkit-linear-gradient(-35deg, rgba(234,187,0,.9), rgba(21,96,178,.9));
+	background-image: -moz-linear-gradient(-35deg, rgba(234,187,0,.9), rgba(21,96,178,.9));
+	background-image: -o-linear-gradient(-35deg, rgba(234,187,0,.9), rgba(21,96,178,.9));
+	background-image: linear-gradient(125deg, rgba(234,187,0,.9), rgba(21,96,178,.9));
+}
+
+
+/* ==============================
+   Secondary color
+   ============================== */
+  
+.image-bg,
+.bg-overlay-2,
+.btn-spacia,
+a.btn-spacia,
+.btn-spacia.btn-border:hover,
+.btn-spacia.btn-border:focus,
+.service-more:before,
+.progress-bar{
+	background-color: #1560b2;
+}
+
+.btn-spacia:hover,
+.btn-spacia:focus{
+	background-color: rgba(21,96,178, .7);
+}
+
+.bg-overlay-2{
+	background-color: rgba(21,96,178, .9);
+}
+
+.team-section .bg-overlay-2{
+	background: rgba(21,96,178, .963) !important;
+}
+.team-photo:after{
+	background: rgba(21,96,178, .1);
+}
+
+body,
+.btn-spacia.btn-border,
+.btn-spacia.btn-w,
+.btn-spacia.btn-w-color:hover,
+.btn-spacia.btn-w-color:focus,
+.service-icon,
+.service-title,
+.service-full,
+.works-filter,
+.works-filter a,
+.works-filter li.active:hover,
+.work-item a,
+.work-item a:hover,
+.work-navigation a,
+.work-navigation a:visited,
+.work-navigation a:hover,
+.contact-icon,
+.contact-icon a,
+.contact-text a{
+	color: #1560b2;
+}
+.btn-spacia.btn-border,
+.service-item-inner,
+.works-filter,
+.works-filter li.active,
+.phone{
+	border-color: #1560b2;
+}
+
+.image-bg .section-heading,
+.btn-spacia.btn-border:hover,
+.btn-spacia.btn-border:focus,
+.dark-bg a,
+.team-item:hover .team-status,
+.team-name{
+	color: #fff;
+}
+.image-bg .banner-decription,
+.works-filter li:hover,
+.tc-content,
+.tc-author,
+.tc-author a,
+.tc-arrow-left .fa,
+.tc-arrow-right .fa,
+.dark-bg .section-title,
+.dark-bg .section-text,
+.team-status{
+	color: #92acd7;
+}
+
+
+.work-descr,
+.work-item a{
+	color: #777;
+}
+
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+.form input[type="phone"]:focus,
+.form input[type="url"]:focus,
+.form input[type="search"]:focus,
+.form input[type="tel"]:focus,
+.form input[type="password"]:focus,
+.form textarea:focus{
+	color: #1560b2;
+	border-color: #1560b2;
+	-webkit-box-shadow: 0 0 3px rgba(21,96,178, .3);
+	-moz-box-shadow: 0 0 3px rgba(21,96,178, .3);
+	box-shadow: 0 0 3px rgba(21,96,178, .3);
+}
+
+#map-canvas{
+	background-color: #163d68;
+}

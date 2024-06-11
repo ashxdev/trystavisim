@@ -1,0 +1,21 @@
+/* ==============================
+   Menu Style
+   ============================== */
+
+.logo-wrap{
+	display: none;
+}
+.main-nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.inner-nav{
+	float: right;
+}
+.nav-social-links{
+	display: none;
+}
+.mobile-nav{
+	float: right;
+}

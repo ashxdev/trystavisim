@@ -1,0 +1,202 @@
+/* ==============================
+   Primary color
+   ============================== */
+
+/* Solid color */
+
+a,
+a:hover,
+.color,
+.btn-spacia.btn-border-c,
+.btn-spacia.btn-border-w:hover,
+.btn-spacia.btn-border-w:focus,
+.btn-spacia.btn-w:hover,
+.btn-spacia.btn-w:focus,
+.btn-spacia.btn-w-color,
+.service-close-link,
+.benefit-icon,
+.phone-icon,
+.accordion > dt > a.active,
+.accordion > dt > a.active:after,
+.accordion > dt > a.active:hover:after,
+.toggle > dt > a.active,
+.toggle > dt > a.active:after,
+.toggle > dt > a.active:hover:after,
+.blog-item-title a:hover,
+a.blog-item-more:hover,
+.blog-item-q:hover a,
+.blog-item-q p a:hover,
+.blog-item-q p:hover:before,
+.blog-item-q p:hover:after,
+.pagination a:hover,
+.widget-menu li a:hover,
+.tags a:hover,
+.widget-posts li a:hover{
+	color: #28ae61;
+}
+
+blockquote,
+.btn-spacia.btn-border-c
+{
+	border-color: #28ae61;
+}
+
+.btn-spacia.btn-border-c:hover,
+.btn-spacia.btn-border-c:focus,
+.image-color-bg,
+.bg-overlay-1,
+.benefit-item:hover:after,
+.progress-color .progress-bar{
+	background-color: #28ae61;
+}
+
+
+/* RGBA colors */
+
+.service-close-link:hover{
+	color: rgba(40,174,97, .8);
+}
+
+.btn-spacia.btn-color{
+	background-color: rgba(40,174,97, 1);
+}
+
+.btn-spacia.btn-color:hover,
+.btn-spacia.btn-color:focus,
+.bg-overlay-1{
+  	background: rgba(40,174,97, .9);
+}
+
+.work-item:hover .work-img:after{	
+	background-color: rgba(40,174,97, .95);
+}
+
+.image-color-bg .banner-decription{
+	color: #a5e0be;
+}
+
+.pagination a:hover,
+.tags a:hover{
+	border-color: rgba(40,174,97, .5);
+}
+
+.widget-menu li a:hover{
+	border-color: rgba(40,174,97, .4);
+}
+
+/* Gradients */
+
+.gradient-overlay{	
+	background-image: -webkit-linear-gradient(-35deg, rgba(40,174,97,.9), rgba(4,190,166,.9));
+	background-image: -moz-linear-gradient(-35deg, rgba(40,174,97,.9), rgba(4,190,166,.9));
+	background-image: -o-linear-gradient(-35deg, rgba(40,174,97,.9), rgba(4,190,166,.9));
+	background-image: linear-gradient(125deg, rgba(40,174,97,.9), rgba(4,190,166,.9));
+}
+
+
+
+/* ==============================
+   Secondary color
+   ============================== */
+  
+.image-bg,
+.bg-overlay-2,
+.btn-spacia,
+a.btn-spacia,
+.btn-spacia.btn-border:hover,
+.btn-spacia.btn-border:focus,
+.service-more:before,
+.progress-bar{
+	background-color: #9c654a;
+}
+
+.btn-spacia:hover,
+.btn-spacia:focus{
+	background-color: rgba(156,101,74, .7);
+}
+
+.bg-overlay-2{
+	background-color: rgba(156,101,74, .9);
+}
+
+.team-section .bg-overlay-2{
+	background: rgba(156,101,74, .963) !important;
+}
+.team-photo:after{
+	background: rgba(156,101,74, .1);
+}
+
+body,
+.btn-spacia.btn-border,
+.btn-spacia.btn-w,
+.btn-spacia.btn-w-color:hover,
+.btn-spacia.btn-w-color:focus,
+.service-icon,
+.service-title,
+.service-full,
+.works-filter,
+.works-filter a,
+.works-filter li.active:hover,
+.work-item a,
+.work-item a:hover,
+.work-navigation a,
+.work-navigation a:visited,
+.work-navigation a:hover,
+.contact-icon,
+.contact-icon a,
+.contact-text a{
+	color: #9c654a;
+}
+.btn-spacia.btn-border,
+.service-item-inner,
+.works-filter,
+.works-filter li.active,
+.phone{
+	border-color: #9c654a;
+}
+
+.image-bg .section-heading,
+.btn-spacia.btn-border:hover,
+.btn-spacia.btn-border:focus,
+.dark-bg a,
+.team-item:hover .team-status,
+.team-name{
+	color: #fff;
+}
+.image-bg .banner-decription,
+.works-filter li:hover,
+.tc-content,
+.tc-author,
+.tc-author a,
+.tc-arrow-left .fa,
+.tc-arrow-right .fa,
+.dark-bg .section-title,
+.dark-bg .section-text,
+.team-status{
+	color: #dab8a8;
+}
+
+
+.work-descr,
+.work-item a{
+	color: #777;
+}
+
+.form input[type="text"]:focus,
+.form input[type="email"]:focus,
+.form input[type="phone"]:focus,
+.form input[type="url"]:focus,
+.form input[type="search"]:focus,
+.form input[type="tel"]:focus,
+.form input[type="password"]:focus,
+.form textarea:focus{
+	color: #9c654a;
+	border-color: #9c654a;
+	-webkit-box-shadow: 0 0 3px rgba(156,101,74, .3);
+	-moz-box-shadow: 0 0 3px rgba(156,101,74, .3);
+	box-shadow: 0 0 3px rgba(156,101,74, .3);
+}
+
+#map-canvas{
+	background-color: #4a3125;
+}

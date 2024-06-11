@@ -1,0 +1,95 @@
+/* ==============================
+   Colors
+   ============================== */
+
+/* Solid color */
+
+a,
+a:hover,
+.color,
+.btn-spacia.btn-border-c,
+.btn-spacia.btn-border-w:hover,
+.btn-spacia.btn-border-w:focus,
+.btn-spacia.btn-w:hover,
+.btn-spacia.btn-w:focus,
+.btn-spacia.btn-w-color,
+.service-close-link,
+.benefit-icon,
+.phone-icon,
+.accordion > dt > a.active,
+.accordion > dt > a.active:after,
+.accordion > dt > a.active:hover:after,
+.toggle > dt > a.active,
+.toggle > dt > a.active:after,
+.toggle > dt > a.active:hover:after,
+.blog-item-title a:hover,
+a.blog-item-more:hover,
+.blog-item-q:hover a,
+.blog-item-q p a:hover,
+.blog-item-q p:hover:before,
+.blog-item-q p:hover:after,
+.pagination a:hover,
+.widget-menu li a:hover,
+.tags a:hover,
+.widget-posts li a:hover{
+	color: #1abdcc;
+}
+
+blockquote,
+.btn-spacia.btn-border-c
+{
+	border-color: #1abdcc;
+}
+
+.btn-spacia.btn-border-c:hover,
+.btn-spacia.btn-border-c:focus,
+.image-color-bg,
+.bg-overlay-1,
+.benefit-item:hover:after,
+.progress-color .progress-bar
+{
+	background-color: #1abdcc;
+}
+
+
+/* RGBA colors */
+
+.service-close-link:hover{
+	color: rgba(26,189,204, .8);
+}
+
+.btn-spacia.btn-color{
+	background-color: rgba(26,189,204, 1);
+}
+
+.btn-spacia.btn-color:hover,
+.btn-spacia.btn-color:focus,
+.bg-overlay-1{
+  	background: rgba(26,189,204, .9);
+}
+
+.work-item:hover .work-img:after{	
+	background-color: rgba(26,189,204, .95);
+}
+
+.image-color-bg .banner-decription{
+	color: #b1e0e4;
+}
+
+.pagination a:hover,
+.tags a:hover{
+	border-color: rgba(26,189,204, .5);
+}
+
+.widget-menu li a:hover{
+	border-color: rgba(26,189,204, .4);
+}
+
+/* Gradients */
+
+.gradient-overlay{	
+	background-image: -webkit-linear-gradient(-35deg, rgba(26,189,204,.9), rgba(64,54,190,.9));
+	background-image: -moz-linear-gradient(-35deg, rgba(26,189,204,.9), rgba(64,54,190,.9));
+	background-image: -o-linear-gradient(-35deg, rgba(26,189,204,.9), rgba(64,54,190,.9));
+	background-image: linear-gradient(125deg, rgba(26,189,204,.9), rgba(64,54,190,.9));
+}

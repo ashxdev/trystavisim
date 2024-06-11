@@ -1,0 +1,63 @@
+/* *****************************
+ * 
+ * Hello & Welcome!
+ * This is CSS configuration file.
+ * 
+ ******************************* */
+
+
+
+/* ==============================
+   Fonts Combination
+   ============================== */
+
+/* Deafult: Montserrat & Lora (font-1.css) */
+
+@import url("fonts-styles/fonts-1.css");
+/*@import url("fonts-styles/fonts-2.css");*/
+/* @import url("fonts-styles/fonts-3.css"); */
+
+
+/* ==============================
+   Main Menu Alignment
+   ============================== */
+  
+/* Default: Bottom Left */
+
+/* @import url("menu/bottom-right.css"); */  
+/* @import url("menu/bottom-center.css"); */
+@import url("menu/top-left.css");
+/* @import url("menu/top-right.css"); */  
+/*@import url("menu/top-center.css");*/
+
+
+/* ==============================
+   Main Menu Style
+   ============================== */
+  
+/* Default: White */
+
+/* @import url("menu/menu-dark.css"); */
+
+  
+/* ==============================
+   Color Schemes
+   ============================== */
+
+/* Default: Red */
+  
+/* @import url("colors-styles/color-blue.css"); */
+/* @import url("colors-styles/color-aqua.css"); */
+/* @import url("colors-styles/color-green.css"); */
+/* @import url("colors-styles/color-yellow.css"); */
+/* @import url("colors-styles/color-brown.css"); */
+/* @import url("colors-styles/color-purple.css"); */
+/* @import url("colors-styles/color-gray.css"); */
+/* @import url("colors-styles/color-yellow-blue.css");*/
+/* @import url("colors-styles/color-aqua-blue.css"); */
+/*@import url("colors-styles/color-green-brown.css");*/
+@import url("colors-styles/color-red-orange.css");
+
+
+
+

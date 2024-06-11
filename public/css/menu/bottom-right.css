@@ -1,0 +1,13 @@
+/* ==============================
+   Menu Style
+   ============================== */
+
+.inner-nav{
+	float: right;
+}
+.nav-social-links{
+	display: none;
+}
+.mobile-nav{
+	float: right;
+}

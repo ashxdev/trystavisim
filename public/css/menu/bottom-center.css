@@ -1,0 +1,15 @@
+/* ==============================
+   Menu Style
+   ============================== */
+
+.logo-wrap{
+	display: none;
+}
+.main-nav{
+	text-align: center;
+	line-height: 0;
+}
+.inner-nav{
+	float: none;
+	overflow: hidden;
+}

@@ -1,0 +1,78 @@
+.col-1{ width: 6.5%; } 
+.col-2{ width: 15%; } 
+.col-3{ width: 23.5%; } 
+.col-4{ width: 32%; } 
+.col-5{ width: 40.5%; }
+.col-6{ width: 49%; } 
+.col-7{ width: 57.5%; } 
+.col-8{ width: 66%; } 
+.col-9{ width: 74.5%; } 
+.col-10{ width: 83%; } 
+.col-11{ width: 91.5%; } 
+.col-12{ width: 100%; } 
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12{
+	margin: 0 2% 1% 0;
+	float: left;
+	display: block;
+}
+
+.first{margin-left:0;}
+.last{margin-right:0;}
+
+.container{
+	width: 100%;
+	margin: auto;
+}
+
+.clear{
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0
+}
+
+.clearfix:after{
+    clear: both;
+    content: ' ';
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    visibility: hidden;
+    width: 0;
+    height: 0
+} 
+
+* html .clearfix, *:first-child + html .clearfix{
+    zoom: 1
+}
+
+@media screen and (max-width : 480px){
+    .col-1,
+	.col-2,
+	.col-3,
+	.col-4,
+	.col-5,
+	.col-6,
+	.col-7,
+	.col-8,
+	.col-9,
+	.col-10,
+	.col-11,
+	.col-12 {
+        width: 100%;
+    }
+}

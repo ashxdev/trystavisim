@@ -1,0 +1,59 @@
+/* ==============================
+   Menu Style
+   ============================== */
+
+.main-nav{
+	background-color: #212121;
+	
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+.inner-nav ul > li > a{
+	color: #888;
+	border-color: transparent;
+}
+.inner-nav ul > li:first-child > a{
+	border-color: transparent;
+}  
+.inner-nav ul > li > a:hover,
+.inner-nav ul > li > a.active{
+	background-color: #2e2e2e;
+	color: #aaa;
+}
+
+.mobile-nav{
+	background-color: #2e2e2e;
+	border-color: transparent;
+	color: #888;
+}
+.mobile-nav:hover,
+.mobile-nav.active{
+	background-color: #333;
+	color: #aaa;
+}
+
+.nav-social-links a{
+	float: left;
+	padding-left: 5px;
+	color: #777;
+	text-decoration: none;
+}
+.nav-social-links a:hover{
+	text-decoration: none;
+}
+.nav-social-links a .fa{
+	background-color: #2e2e2e;
+	color: #777;
+}
+
+.nav-social-links a .fa:after{
+	border-color: transparent;
+	display: none;
+}
+.nav-social-links a:hover .fa{
+	background: #fff;
+}
+.nav-social-links a:hover .fa:after{
+	display: none;
+}

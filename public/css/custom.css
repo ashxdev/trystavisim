@@ -1,0 +1,64 @@
+.flag-ukraine,
+.flag-ukraine:after {
+	background: url(../images/flags/ukraine.png) 0 0 no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+.flag-united-kingdom,
+.flag-united-kingdom:after {
+	background: url(../images/flags/united-kingdom.png) 0 0 no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+.flag-france,
+.flag-france:after {
+	background: url(../images/flags/france.png) 0 0 no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+.flag-germany,
+.flag-germany:after {
+	background: url(../images/flags/germany.png) 0 0 no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+.flag-slovakia,
+.flag-slovakia:after {
+	background: url(../images/flags/slovakia.png) 0 0 no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+.flag-czech-republic,
+.flag-czech-republic:after {
+	background: url(../images/flags/czech-republic.png) 0 0 no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+.flag-hungary,
+.flag-hungary:after {
+	background: url(../images/flags/hungary.png) 0 0 no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+.flag-poland,
+.flag-poland:after {
+	background: url(../images/flags/poland.png) 0 0 no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+.flag-russia,
+.flag-russia:after {
+	background: url(../images/flags/poland.png) 0 0 no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+
+.nav-social-links.social.right {
+	right: 70px;
+}
+
+@media only screen and (max-width: 360px) {
+	.nav-social-links.social.right {
+		display: none;
+	}
+}

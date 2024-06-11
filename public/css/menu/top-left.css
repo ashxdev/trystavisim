@@ -1,0 +1,12 @@
+/* ==============================
+   Menu Style
+   ============================== */
+
+.logo-wrap{
+	display: none;
+}
+.main-nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+}
