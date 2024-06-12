@@ -789,7 +789,7 @@ $(window).load(function(){
                     marker_1: {
                         position: gmMarkerAddress,
                         options: {
-                            icon: "https://www.trystavisim.com/extension/ash_site/design/t8_paralax/images/map-marker.png"
+                            icon: "/images/map-marker.png"
                         },
                         info_window: {
                             content: gmText,
