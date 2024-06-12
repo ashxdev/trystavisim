@@ -7,32 +7,39 @@
  * from Google Fonts
  * */
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700&subset=latin,cyrillic);
 
 
 body,
-h1,h2,h3,h4,h5,h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 .tc-author,
 .blog-item-data,
-.comment-item-data{
+.comment-item-data {
 	font-family: "Open Sans", arial, sans-serif;
 }
-.main-nav{
+
+.main-nav {
 	letter-spacing: 1px;
 }
+
 .section-heading,
-.small-section-heading{
+.small-section-heading {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
+
 .section-text,
 .text,
-.text-block{
+.text-block {
 	letter-spacing: 0;
 }
 
-.serif
-.text,
+.serif .text,
 blockquote,
 .home-description,
 .section-title,
@@ -50,14 +57,14 @@ blockquote,
 .contact-text,
 .text-block,
 .spasia-tabs-cont,
-.accordion > dd,
-.toggle > dd,
+.accordion>dd,
+.toggle>dd,
 .date-num,
 .blog-item-body,
 .blog-item-more,
 .widget-text,
 .widget-menu li,
 .widget-menu li small,
-.widget-posts li{
+.widget-posts li {
 	font-family: "Open Sans", arial, sans-serif;
 }
